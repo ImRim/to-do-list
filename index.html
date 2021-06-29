@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+
+  <!-- 1 link bootstarp css-->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- 2 link css -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+  <div class="container">
+    <p>
+      <label for="new-task">Add Item</label><input id="new-task" type="text"><button class="btn btn-success">Add</button>
+    </p>
+
+    <h3 class="text-center">Todo</h3>
+    <ul id="incomplete-tasks">
+      <li><input type="checkbox"><label>Assignment 1</label><input type="text"><button
+          class="btn btn-warning edit">Edit</button><button class="btn btn-danger delete">Delete</button></li>
+      <li><input type="checkbox"><label>Create account on Github</label><input type="text"><button
+          class="btn btn-warning edit">Edit</button><button class="btn btn-danger delete ">Delete</button></li>
+
+    </ul>
+
+    <h3 class="text-center">Completed</h3>
+    <ul id="completed-tasks">
+      <li><input type="checkbox" checked><label>Learning bootstrap</label><input type="text"><button
+          class="btn btn-warning edit">Edit</button><button class="btn btn-danger delete">Delete</button></li>
+    </ul>
+  </div>
+
+
+  <!-- 3 link jquery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <!-- 4 link bootstrap js -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- 5 link javascript  -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
